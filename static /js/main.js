@@ -20,7 +20,10 @@ $(document).ready(() => {
     });
 
     $('.correct-answer').on('click', () => {
-        $('.frowm').hide();
+        $('.frown').hide();
         $('.smiley').show();
+        $('.wrong-answer-one').fadeOut('medium');
+        $('.wrong-answer-two').fadeOut('medium');
+        $('.wrong-answer-three').fadeOut('medium');
     });
 });
