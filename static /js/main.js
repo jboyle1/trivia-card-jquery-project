@@ -18,4 +18,8 @@ $(document).ready(() => {
         $('.wrong-text-three').fadeOut('medium');
         $('.frown').show();
     });
+
+    $('.correct-answer').on('click', () => {
+        
+    })
 });
