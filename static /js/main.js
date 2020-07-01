@@ -5,14 +5,17 @@ $(document).ready(() => {
     });
 
     $('.wrong-answer-one').on('click', () => {
-        $('wrong-text-one').fadeOut('slow');
+        $('.wrong-text-one').fadeOut('medium');
+        $('.frown').show();
     });
 
     $('.wrong-answer-two').on('click', () => {
-        $('wrong-text-two').fadeOut('slow');
+        $('.wrong-text-two').fadeOut('medium');
+        $('.frown').show();
     });
 
     $('.wrong-answer-three').on('click', () => {
-        $('wrong-text-three').fadeOut('slow');
+        $('.wrong-text-three').fadeOut('medium');
+        $('.frown').show();
     });
 });
