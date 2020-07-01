@@ -21,5 +21,6 @@ $(document).ready(() => {
 
     $('.correct-answer').on('click', () => {
         $('.frowm').hide();
-    })
+        $('.smiley').show();
+    });
 });
